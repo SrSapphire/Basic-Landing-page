@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+
+    <link rel="stylesheet" href="assets/variables.css">
+    <link rel="stylesheet" href="assets/elements.css">
+    <link rel="stylesheet" href="assets/classes.css">
+    <link rel="stylesheet" href="assets/styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <script src="/scripts/main.js"></script>
+</head>
+<body>
+    <a href="#home" class="back-to-top">➤</a>
+    <input type="checkbox" class="active-menu-bttn material-symbols-outlined" aria-label="Close menu" id="close-menu">
+
+    <aside class="menu white-bg close" id="main-menu">
+        <div class="main-content menu-content">
+            <h1 class="logo" onclick="closemenu()"><a href="#home">logo</a></h1>
+            <nav class="menu-navbar">
+                <ul class="nav-list" onclick="closemenu()">
+                    <li class="nav-item"><a href="#intro">intro</a></li>
+                    <li class="nav-item"><a href="#grid-one">grid-one</a></li>
+                    <li class="nav-item"><a href="#gallery">gallery</a></li>
+                    <li class="nav-item"><a href="#grid-two">grid-two</a></li>
+                    <li class="nav-item"><a href="#contact">contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </aside>
+    <section class="intro main-bg section" id="home">
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+                <h2>January brings us firefox 85</h2>
+                <p>To wrap up January, we are proud to bring you the release of Firefox 85. In this version we are bringing you support for the :focus-visible pseudo-class in CSS and associated devtools, and the complete removal of Flash support from Firefox.</p>
+            </div>
+            <div class="intro-img">
+                <img src="img/javascript.svg" alt="a draw style image that represents a man holding css logo, a girl pushing javascript's logo and another man holding html's logo.">
+            </div>
+        </div>
+    </section>
+
+    <section class="white-bg section" id="intro">
+            <div class="main-content top3-content">
+                <h2>top 3 jobs</h2>
+                <p>A program is a set of instructions that a computer uses to perform a specific function. To use an analogy, a program is like a computer's recipe. It contains a list of ingredients(called statements) that tell the computer</p>
+                <p> how to execute a specific task.Programs are created using specific programming languages such as C++, Python, and Ruby. These are high level programming languages that are into low levelabove a machine language and technically can be written by a human.</p>
+                <p>and assemblers within the computer system. Assembly language is a type of low level language that is one step above a machine language and technically can be written by a human.</p>
+            </div>
+    </section>
+
+    <section id="grid-one" class="main-bg section">
+        <div class="main-content grid-one-content">
+            <h2 class="grid-main-heading">My grid</h2>
+            <p class="grid-description">Uma descrição qualquer</p>
+            <div class="grid">
+                <article>
+                    <h3>teste</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore laborum accusantium similique delectus quas consectetur eum qui harum esse provident, corrupti, nostrum aliquam doloribus natus animi est maiores obcaecati voluptate?</p>
+                </article>
+                <article>
+                    <h3>teste</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore laborum accusantium similique delectus quas consectetur eum qui harum esse provident, corrupti, nostrum aliquam doloribus natus animi est maiores obcaecati voluptate?</p>
+                </article>
+                <article>
+                    <h3>teste</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore laborum accusantium similique delectus quas consectetur eum qui harum esse provident, corrupti, nostrum aliquam doloribus natus animi est maiores obcaecati voluptate?</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="white-bg section">
+        <div class="main-content grid-one-content">
+            <h2 class="grid-main-heading">Gallery</h2>
+            <p class="grid-description">Uma descrição qualquer</p>
+            <div class="grid">
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?r=1" alt="random image from unsplash">
+                </div>
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?r=2" alt="random image from unsplash">
+                </div>
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?r=3" alt="random image from unsplash">
+                </div>
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?r=4" alt="random image from unsplash">
+                </div>
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?r=5" alt="random image from unsplash">
+                </div>
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?r=6" alt="random image from unsplash">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="grid-two" class="main-bg section">
+        <div class="main-content grid-one-content">
+            <h2 class="grid-main-heading">My Jobs</h2>
+            <p class="grid-description">Uma descrição qualquer</p>
+            <div class="grid">
+                <article>
+                    <h3>teste</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore laborum accusantium similique delectus quas consectetur eum qui harum esse provident, corrupti, nostrum aliquam doloribus natus animi est maiores obcaecati voluptate?</p>
+                </article>
+                <article>
+                    <h3>teste</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore laborum accusantium similique delectus quas consectetur eum qui harum esse provident, corrupti, nostrum aliquam doloribus natus animi est maiores obcaecati voluptate?</p>
+                </article>
+                <article>
+                    <h3>teste</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore laborum accusantium similique delectus quas consectetur eum qui harum esse provident, corrupti, nostrum aliquam doloribus natus animi est maiores obcaecati voluptate?</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="white-bg section" id="prices">
+        <div class="main-content prices-content">
+            <h2>Pricing</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum quis quod ipsam optio molestias, maiores sapiente ducimus, necessitatibus repellat nulla voluptatum ab asperiores, sed dolor fugiat omnis doloremque? Maxime, illo. Lorem ipsum dolor sit </p>
+            <div class="responsive-table">
+                <table class="price-table">
+                    <caption>Pricing table</caption>
+                    <thead>
+                        <tr>
+                            <th>Title 1</th>
+                            <th>Title 2</th>
+                            <th>Title 3</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Content 1</td>
+                            <td>Content 2</td>
+                            <td>Content 3</td>
+                        </tr>
+                        <tr>
+                            <td>Content 1</td>
+                            <td>Content 2</td>
+                            <td>Content 3</td>
+                        </tr>
+                        <tr>
+                            <td>Content 1</td>
+                            <td>Content 2</td>
+                            <td>Content 3</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="2">SPAN DOWN</td>
+                            <td>Content 2</td>
+                            <td>Content 3</td>
+                        </tr>
+                        <tr>
+                            <td>Content 2</td>
+                            <td>Content 3</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="3">Footer 1</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <section class="main-bg section" id="contact">
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+                <h2>Contact Us</h2>
+                <p>To wrap up January, we are proud to bring you the release of Firefox 85. In this version we are bringing you support for the :focus-visible pseudo-class in CSS and associated devtools, and the complete removal of Flash support from Firefox.</p>
+            </div>
+            <div class="intro-img">
+                <img src="img/contact.svg" alt="a draw style image that represents a man holding css logo, a girl pushing javascript's logo and another man holding html's logo.">
+            </div>
+            <form action="#" method="get" class="contact-form">
+                <fieldset class="contact-form-content">
+                    <legend>Contact form</legend>
+                    <div class="form-grid">
+                        <div class="form-item input-name">
+                            <label for="frst-name">First Name</label>
+                            <input type="text" placeholder="Your name" id="frst-name">
+                        </div>
+                        <div class="form-item input-name">
+                            <label for="last-name">Last Name</label>
+                            <input type="text" placeholder="Your last name" id="last-name">
+                        </div>
+                        <div class="form-item input-email">
+                            <label for="email">Email</label>
+                            <input type="email" placeholder="Your e-mail" id="email">
+                        </div>
+                        <div class="form-item input-msg">
+                            <label for="msg">Your message:</label>
+                            <textarea id="msg" cols="30" rows="10"></textarea>
+                        </div>
+                        <div class="form-item input-submit">
+                            <button type="submit" class="submit-bttn">Send message</button>
+                        </div>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </section>
+
+    <footer class="website-footer">
+        <p class="footer-credits">
+            <a href="#" target="_blank">Feito com <span class="heart">&hearts;</span> por Vinicius Borba</a>
+        </p>
+    </footer>
+
+</body>
+</html>

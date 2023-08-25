@@ -1,0 +1,28 @@
+.section{
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.main-bg{
+    background-image: url(/img/main-bg.svg);
+    background-size: cover;
+    background-position: center center;
+    color: var(--white-color);
+}
+
+.white-bg{
+    background-color: var(--white-color);
+    color: var(--primary-color);
+}
+
+.main-content{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 9rem var(--gap);
+}
+
+@media (max-width: 1000px) {
+    .main-content{
+        padding: 2rem var(--gap);
+    }
+}
